@@ -1,0 +1,109 @@
+.sc .empty h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inner-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  top: -15px;
+}
+
+.size {
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 0px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  border: 1px solid #ca5252;
+}
+
+
+.edit-amount-wrapper {
+  border-left: 2px solid black;
+  margin-left: 10px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.plus {
+  color: #259c3f;
+  float: right;
+  cursor: pointer;
+  transition: color, transform 500ms ease;
+  margin-right: 8px;
+}
+
+.plus:hover {
+  color: #0eb933;
+  transform: scale(1.4);
+}
+
+
+.minus {
+  color: #ca5252;
+  float: right;
+  cursor: pointer;
+  transition: color, transform 500ms ease;
+}
+
+.minus:hover {
+  color: #d83030;
+  transform: scale(1.4);
+}
+
+
+
+.amount {
+  margin-right: 10px;
+  font-weight: bold;
+  float: right;
+}
+
+.item {
+  width: 100%;
+  float: left;
+  margin: 10px 0;
+}
+
+.item img {
+  width: 80px;
+  float: left;
+  object-position: center;
+  margin-right: 20px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.item h2 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.item p {
+  color: #797979;
+  font-weight: 700;
+}
+
+.item .delic {
+  color: #ca5252;
+  float: right;
+  cursor: pointer;
+  transition: color, transform 500ms ease;
+}
+
+.item .delic:hover {
+  color: #d83030;
+  transform: scale(1.4);
+}
