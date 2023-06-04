@@ -123,19 +123,30 @@
   width: 100%;
   font-weight: 600;
   font-size: 18px;
-  margin-bottom: 16px;
+  margin-bottom: -90px;
   margin-top: 8px;
 }
 
 .sc .oform {
-  margin-left: 145px;
+  margin-left: 320px;
   line-height: 5px;
   color: #fff;
   border-radius: 50%;
   cursor: pointer;
-  padding: 12px ;
+  padding: 24px ;
   background-color: #ca5252;
   font-size: 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  top: -8px;
+  font-weight: 600;
+  transition: color, transform 500ms ease;
+}
+
+.sc .oform:hover {
+  transform: scale(1.1);
 }
 
 

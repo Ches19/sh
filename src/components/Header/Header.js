@@ -40,9 +40,8 @@ function Header(props) {
                     item={el}
                   />
                 ))}
-                <p className={styles.summa}>
-                  Сумма: {totalSum} руб <span className={styles.oform}>Оформить заказ</span>
-                </p>
+                <p className={styles.summa}>Сумма: {totalSum} руб</p>
+                <span className={styles.oform}>Оформить заказ</span>
               </div>
             ) : (
               <div className={styles.empty}>
