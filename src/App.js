@@ -115,8 +115,8 @@ const App = () => {
 
   // выбираем все товары по умолчанию
   useEffect(() => {
-    setCurrentItems(items)
-  }, [])
+    setCurrentItems(prevItems => items)
+  }, [items])
 
   return (
     <div className='wrapper'>
