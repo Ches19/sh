@@ -18,7 +18,7 @@ const ShowFullItem = ({ item, onShowItem, onAdd }) => {
         <h2>{item.title}</h2>
         <p>{item.desc}</p>
         <b>{item.price} руб</b>
-        <span className={styles.v2}>{item.opis}</span>
+        <pre className={styles.v2}>{item.opis}</pre>
         <div className={styles['actions-wrapper']}>
           <div
             className={`${styles['add-to-cart']} ${
